@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribePattern", "PublishSubscribePattern", "{E676335E-8C6F-4F99-A40C-623293C75219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg.CodeLabs.PublishSubscribePatternDemo", "PublishSubscribePattern\Pg.CodeLabs.PublishSubscribePatternDemo\Pg.CodeLabs.PublishSubscribePatternDemo.csproj", "{FF7FAD3E-9351-414C-AF61-47F97BA02660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7FAD3E-9351-414C-AF61-47F97BA02660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7FAD3E-9351-414C-AF61-47F97BA02660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7FAD3E-9351-414C-AF61-47F97BA02660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7FAD3E-9351-414C-AF61-47F97BA02660}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF7FAD3E-9351-414C-AF61-47F97BA02660} = {E676335E-8C6F-4F99-A40C-623293C75219}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536102DB-0C75-4948-BE4F-70CC29F465A0}
+	EndGlobalSection
+EndGlobal

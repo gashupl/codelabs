@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Pg.CodeLabs/.vs
+/src/Pg.CodeLabs/PublishSubscribePattern/Pg.CodeLabs.PublishSubscribePatternDemo/bin/Debug/net6.0
+/src/Pg.CodeLabs/PublishSubscribePattern/Pg.CodeLabs.PublishSubscribePatternDemo/obj
