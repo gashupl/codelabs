@@ -9,12 +9,13 @@ namespace Pg.CodeLabs.PublishSubscribePatternDemo
     /// <summary>
     /// Events publisher
     /// </summary>
-    internal class Match
+    internal class Score
     {
         internal static int Result = 0; 
 
         public Action? OnChange { get; set; }
 
+        public Action<int>? OnEndGame { get; set; }
         //Rise event
         public void RealScores()
         {
@@ -24,6 +25,15 @@ namespace Pg.CodeLabs.PublishSubscribePatternDemo
             {
                 //Invoke OnChange Action
                 OnChange();
+            }
+        }
+
+        public void EndGame(int happinessLevel)
+        {
+            
+            if (OnEndGame != null)
+            {
+                OnEndGame(happinessLevel);
             }
         }
     }

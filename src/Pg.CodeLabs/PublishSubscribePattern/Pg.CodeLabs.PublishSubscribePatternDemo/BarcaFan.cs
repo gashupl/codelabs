@@ -5,7 +5,7 @@
     {
         public void React()
         {
-            Console.WriteLine($"Oh no! Another one :(. We already lost {Match.Result} goal(s)!");
+            Console.WriteLine($"Oh no! Another one :(. We already lost {Score.Result} goal(s)!");
         }
     }
 }
